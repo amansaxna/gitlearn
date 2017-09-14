@@ -1,0 +1,25 @@
+import java.util.Scanner;
+public class Clothing
+{
+	public static void main(String arg[])
+	{
+		System.out.println("1-Men"+"\t"+"2-Women");
+		Scanner sc=new Scanner(System.in);
+		int n=sc.nextInt();
+		if(n==1)
+		{
+			Men m=new Men();
+			m.man();
+			m.input();
+		}
+		else
+		{
+			Women w=new Women();
+			w.woman();
+			w.input();
+		}
+	}
+}
+		
+		
+		
